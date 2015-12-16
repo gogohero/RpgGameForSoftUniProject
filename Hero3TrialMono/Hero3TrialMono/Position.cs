@@ -7,7 +7,7 @@ namespace Hero3TrialMono
 {
     public struct Position
     {
-        public Position(int x , int y)
+        public Position(int x , int y) : this()
         {
             this.X = x;
             this.Y = y;

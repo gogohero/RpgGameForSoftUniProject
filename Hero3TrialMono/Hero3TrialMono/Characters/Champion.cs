@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Hero3TrialMono.Interfaces;
+using Microsoft.Xna.Framework;
 
 namespace Hero3TrialMono.Characters
 {
     using Items;
 
-    public abstract class Champion : GameObject, ICharacter, IPlayer
+    public abstract class Champion : GameObject, IPlayer
     {
         private int gold;
         private int crystals;
@@ -19,7 +20,7 @@ namespace Hero3TrialMono.Characters
         private int jems;
 
 
-        public Champion(Position position, int damage, string name) 
+        public Champion(Vector2 position, int damage, string name) 
             : base(position)
         {
             this.Damage = damage;
@@ -27,15 +28,16 @@ namespace Hero3TrialMono.Characters
         
         }
 
-        public int Expirience { get; }
+        public Vector2 Position { get; private set; }
+        public string Name { get; set; }
+       
+        public int Expirience { get; set; }
 
-        public int Damage { get; }
+        public int Damage { get; set; }
 
-        public Position Position { get; }
+      
 
-        public string Name { get; }
-
-        public IEnumerable<Item> suplys { get; }
+        public IEnumerable<Item> suplys { get; set; }
 
         public void Attack(Champion enemy)
         {

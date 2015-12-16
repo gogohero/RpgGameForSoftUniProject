@@ -8,7 +8,7 @@ namespace Hero3TrialMono
 {
    public class Hero
     {
-        private int heroDamage ;
+        private int heroDamage;
         private int heroArmor;
         
 

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Microsoft.Xna.Framework;
 
 namespace Hero3TrialMono.Items
 {
@@ -9,7 +10,7 @@ namespace Hero3TrialMono.Items
     {
         private int itemCount;
 
-        protected Item(Position position, int itemCount) 
+        protected Item(Vector2 position, int itemCount) 
             :base(position)
         {
             this.ItemCount = itemCount;

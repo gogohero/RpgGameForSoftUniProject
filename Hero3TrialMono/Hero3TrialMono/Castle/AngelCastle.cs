@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Microsoft.Xna.Framework;
 
 namespace Hero3TrialMono.Castle
 {
@@ -25,7 +26,7 @@ namespace Hero3TrialMono.Castle
         private Soldier GeneralLevelSoldier;
         private Soldier MasterLevelSoldier;
         private Soldier LegendaryLevelSoldier;
-        public AngelCastle(Position position) 
+        public AngelCastle(Vector2 position) 
             : base(position)
         {
 

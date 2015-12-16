@@ -7,6 +7,6 @@ namespace Hero3TrialMono.Interfaces
 {
     interface IDestroyable
     {
-        int Health { get; private set; }
+        int Health { get; set; }
     }
 }

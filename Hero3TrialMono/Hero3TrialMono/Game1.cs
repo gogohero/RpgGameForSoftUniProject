@@ -1,4 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Runtime.Remoting.Metadata.W3cXsd2001;
+using Hero3TrialMono.Characters;
 using Hero3TrialMono.Interfaces;
 using Hero3TrialMono.Items;
 using Microsoft.Xna.Framework;
@@ -14,9 +18,26 @@ namespace Hero3TrialMono
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+
         private List<ICharacter> characters;
         private List<Item> items;
         private bool isRuning;
+        
+        private Rectangle rect;
+        private Texture2D image;
+        private Warrior go6oWarrior = new Warrior(new Vector2(2,2),0,"go6o");
+
+        protected override void LoadContent()
+        {
+            // Create a new SpriteBatch, which can be used to draw textures.
+            spriteBatch = new SpriteBatch(GraphicsDevice);
+            base.LoadContent();
+
+            image = Content.Load<Texture2D>(go6oWarrior.Image);
+            rect = new Rectangle(0, 0, 100, 100);
+
+        }
+
 
         public Game1()
         {
@@ -26,12 +47,7 @@ namespace Hero3TrialMono
             this.items = new List<Item>();
         }
 
-        /// <summary>
-        /// Allows the game to perform any initialization it needs to before starting to run.
-        /// This is where it can query for any required services and load any non-graphic
-        /// related content.  Calling base.Initialize will enumerate through any components
-        /// and initialize them as well.
-        /// </summary>
+
         protected override void Initialize()
         {
             this.IsMouseVisible = true;
@@ -39,54 +55,72 @@ namespace Hero3TrialMono
 
             base.Initialize();
         }
-
-        /// <summary>
-        /// LoadContent will be called once per game and is the place to load
-        /// all of your content.
-        /// </summary>
-        protected override void LoadContent()
-        {
-            // Create a new SpriteBatch, which can be used to draw textures.
-            spriteBatch = new SpriteBatch(GraphicsDevice);
-
-            // TODO: use this.Content to load your game content here
-        }
-
-        /// <summary>
-        /// UnloadContent will be called once per game and is the place to unload
-        /// game-specific content.
-        /// </summary>
         protected override void UnloadContent()
         {
             // TODO: Unload any non ContentManager content here
         }
 
-        /// <summary>
-        /// Allows the game to run logic such as updating the world,
-        /// checking for collisions, gathering input, and playing audio.
-        /// </summary>
-        /// <param name="gameTime">Provides a snapshot of timing values.</param>
+
         protected override void Update(GameTime gameTime)
         {
-            // if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
-            //   Exit();
-
-            // TODO: Add your update logic here
-
             base.Update(gameTime);
         }
 
-        /// <summary>
-        /// This is called when the game should draw itself.
-        /// </summary>
-        /// <param name="gameTime">Provides a snapshot of timing values.</param>
+
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
-            // TODO: Add your drawing code here
+            spriteBatch.Begin();
+            spriteBatch.Draw(image, go6oWarrior.Position, new Rectangle(0, 0, 400, 40),Color.White,0,new Vector2(10,10), new Vector2(1,1),SpriteEffects.None, 0);
+              
+            spriteBatch.End();
+            KeyboardState KBS = Keyboard.GetState();
+            //Moving
+            Move(KBS);
+        }
 
-            base.Draw(gameTime);
+        public void Move(KeyboardState KBS)
+        {
+
+            int speed = 10;
+            if (KBS.IsKeyDown(Keys.Right))
+            {
+                rect.X += speed;
+            }
+            else if (KBS.IsKeyDown((Keys.Left)))
+            {
+                rect.X -= speed;
+            }
+
+            else if (KBS.IsKeyDown(Keys.Down))
+            {
+                rect.Y += speed;
+            }
+            else if (KBS.IsKeyDown(Keys.Up))
+            {
+                rect.Y -= speed;
+            }
+            if (KBS.IsKeyDown(Keys.Right) && KBS.IsKeyDown(Keys.Down))
+            {
+                rect.Y += speed / 2;
+                rect.X += 0;
+            }
+            if (KBS.IsKeyDown(Keys.Up) && KBS.IsKeyDown((Keys.Left)))
+            {
+                rect.Y -= speed / 2;
+                rect.X -= 0;
+            }
+            if (KBS.IsKeyDown(Keys.Down) && KBS.IsKeyDown((Keys.Left)))
+            {
+                rect.Y += speed / 2;
+                rect.X -= 0;
+            }
+            if (KBS.IsKeyDown(Keys.Up) && KBS.IsKeyDown((Keys.Right)))
+            {
+                rect.Y -= speed / 2;
+                rect.X += 0;
+            }
         }
     }
 }
