@@ -5,7 +5,8 @@ using System.Text;
 
 namespace Hero3TrialMono.Items
 {
-    public abstract class Item : GameObject
+    using Interfaces;
+    public abstract class Item : GameObject, IItem
     {
         private int itemCount;
 
@@ -29,6 +30,10 @@ namespace Hero3TrialMono.Items
             }
         }
 
-        public ItemState ItemState { get; set; }
+        public ItemState ItemState { get; }
+
+       
+
+        
     }
 }

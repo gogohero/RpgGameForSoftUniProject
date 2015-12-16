@@ -6,8 +6,9 @@ using System.Text;
 namespace Hero3TrialMono.Castle.Army
 {
     using Characters;
+    using Intefaces;
     using Interfaces;
-    public class Soldier : GameObject, IMovable, IAttack
+    public abstract class Soldier : GameObject, IMovable, IAttack, ISoldier
     {
         private string name;
         private int damage;
@@ -23,22 +24,22 @@ namespace Hero3TrialMono.Castle.Army
             this.Damage = damage;
         }
 
-        public int SoldierCount { get; set; }
-
-        public string Name { get; set; }
-
-        public int Damage { get; }
-
-        public SoldierState SoldierState { get; set; }
-
-        public int Speed { get; set; }
+      
         public void Move()
         {
-
+            
         }
 
 
-        public void Attack(Champion enemy)
+        public int SoldierCount { get; }
+        public string Name { get; }
+        int ISoldier.Damage { get; }
+        public SoldierState SoldierState { get; }
+        public int Speed { get; }
+        
+        public int Damage { get; private set; }
+
+        public void Attack(Player enemy)
         {
             
         }

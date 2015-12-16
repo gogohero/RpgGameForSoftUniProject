@@ -5,12 +5,23 @@ using System.Text;
 
 namespace Hero3TrialMono.Castle.Structures
 {
-    class Structure : GameObject
+    using Interfaces;
+
+    public abstract class Structure : GameObject , IStructure
     {
-        public Structure(Position position) 
+        public Structure(Position position, string name) 
             : base(position)
         {
-
+            this.Name = name;
         }
+
+        public string Name { get; }
+
+        public void Buy()
+       {
+           
+       }
+
+       
     }
 }

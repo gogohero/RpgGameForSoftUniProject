@@ -5,10 +5,12 @@ using System.Text;
 
 namespace Hero3TrialMono.Characters
 {
-   public class Healer : Champion
+   public class Healer : Player
     {
-       public Healer(Position position, int damage, string name) : base(position, damage, name)
+       public Healer(Position position, int damage, string name, int gold, int crystals, int mercury, int sulfur, int wood, int rock, int jems) 
+            : base(position, damage, name, gold, crystals, mercury, sulfur, wood, rock, jems)
        {
+
        }
     }
 }

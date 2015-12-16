@@ -9,6 +9,6 @@ namespace Hero3TrialMono.Interfaces
    public interface IAttack
     {
         int Damage { get; }
-        void Attack(Champion enemy);
+        void Attack(Player enemy);
     }
 }
