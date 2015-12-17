@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Miroslav/Documents/Visual Studio 2015/Projects/Hero3TrialMono/Hero3TrialMono/Content/Images/healer.png</SourceFile>
-  <SourceTime>2015-12-16T20:26:27.6326885+02:00</SourceTime>
-  <DestFile>C:/Users/Miroslav/Documents/Visual Studio 2015/Projects/Hero3TrialMono/Hero3TrialMono/Content/bin/Windows/Images/healer.xnb</DestFile>
-  <DestTime>2015-12-17T15:41:51.5190737+02:00</DestTime>
+  <SourceFile>E:/Projects/ProjectOOPRpgGame/RpgGameForSoftUniProject/Hero3TrialMono/Hero3TrialMono/Content/Images/healer.png</SourceFile>
+  <SourceTime>2015-12-17T15:52:24.8298403+02:00</SourceTime>
+  <DestFile>E:/Projects/ProjectOOPRpgGame/RpgGameForSoftUniProject/Hero3TrialMono/Hero3TrialMono/Content/bin/Windows/Images/healer.xnb</DestFile>
+  <DestTime>2015-12-17T15:54:38.6834963+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2015-04-29T20:14:44+03:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

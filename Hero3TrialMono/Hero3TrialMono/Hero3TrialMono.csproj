@@ -43,6 +43,9 @@
     <Compile Include="Castle\Army\CaptainLevelSoldier.cs" />
     <Compile Include="Castle\Army\FootLevelSoldier.cs" />
     <Compile Include="Castle\Army\GeneralLevelSoldier.cs" />
+    <Compile Include="Castle\DemonCastle.cs" />
+    <Compile Include="Castle\EarthCastle.cs" />
+    <Compile Include="Castle\OrcCastle.cs" />
     <Compile Include="ContentLoader.cs" />
     <Compile Include="Interfaces\IContent.cs" />
     <Compile Include="Interfaces\IItem.cs" />

@@ -10,13 +10,19 @@ namespace Hero3TrialMono.Castle.Structures
 
     public class FootLevelStructure : Structure
     {
-        const int goldCost = 500;
-        const int rockCost = 10;
+        private string name;
+        private FootLevelSoldier footLevelSoldier;
 
 
-        public FootLevelStructure(Position position, string name) 
+        public FootLevelStructure(Position position, string name, FootLevelSoldier footLevelSoldier) 
             : base(position, name)
         {
+            this.Position = position;
+            this.FootLevelSoldier = footLevelSoldier;
+            this.Name = name;
         }
+
+        public FootLevelSoldier FootLevelSoldier { get; set; }
+        public string Name { get; set; }
     }
 }
