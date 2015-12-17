@@ -106,7 +106,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icon.ico" />
+    <Content Include="Images\archer.png" />
     <Content Include="Images\background.png" />
+    <Content Include="Images\cooltext154680561497265.png" />
+    <Content Include="Images\credit.png" />
+    <Content Include="Images\gameinfo.png" />
+    <Content Include="Images\healer.png" />
+    <Content Include="Images\play.png" />
   </ItemGroup>
   <ItemGroup>
     <MonoGameContentReference Include="Content\Content.mgcb" />

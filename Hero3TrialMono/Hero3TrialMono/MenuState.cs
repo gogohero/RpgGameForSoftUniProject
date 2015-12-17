@@ -14,10 +14,10 @@ namespace Hero3TrialMono
 
     public class MenuState : State
     {
-        private Texture2D backGround;
-        private Texture2D Play;
-        private Texture2D Overview;
-        private Texture2D credits;
+      //  private Texture2D backGround;
+        private Texture2D play;
+        private Texture2D gameinfo;
+        private Texture2D credit;
 
         public MenuState()
         {
@@ -26,12 +26,16 @@ namespace Hero3TrialMono
 
         private void Initialize()
         {
-            this.backGround = base.Content.Load<Texture2D>("Images/background");
+            this.play = base.Content.Load<Texture2D>("Images/play");
+            this.gameinfo = base.Content.Load<Texture2D>("Images/gameinfo");
+            this.credit = base.Content.Load<Texture2D>("Images/credit");
         }
 
         public override void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(this.backGround, new Vector2(0 ,0 ),Color.White);
+            spriteBatch.Draw(this.play, new Vector2(270 ,140 ),Color.White);
+            spriteBatch.Draw(this.gameinfo, new Vector2(270,250),Color.White);
+            spriteBatch.Draw(this.credit, new Vector2(270 ,370),Color.White);
         }
 
         public override void Update(GameTime gameTime)

@@ -24,3 +24,9 @@ C:\Users\Miroslav\documents\visual studio 2015\Projects\Hero3TrialMono\Hero3Tria
 C:\Users\Miroslav\documents\visual studio 2015\Projects\Hero3TrialMono\Hero3TrialMono\obj\x86\Debug\Hero3TrialMono.exe
 C:\Users\Miroslav\documents\visual studio 2015\Projects\Hero3TrialMono\Hero3TrialMono\obj\x86\Debug\Hero3TrialMono.pdb
 C:\Users\Miroslav\documents\visual studio 2015\Projects\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\Content\Images\background.xnb
+C:\Users\Miroslav\documents\visual studio 2015\Projects\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\Content\Images\archer.xnb
+C:\Users\Miroslav\documents\visual studio 2015\Projects\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\Content\Images\cooltext154680561497265.xnb
+C:\Users\Miroslav\documents\visual studio 2015\Projects\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\Content\Images\credit.xnb
+C:\Users\Miroslav\documents\visual studio 2015\Projects\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\Content\Images\gameinfo.xnb
+C:\Users\Miroslav\documents\visual studio 2015\Projects\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\Content\Images\healer.xnb
+C:\Users\Miroslav\documents\visual studio 2015\Projects\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\Content\Images\play.xnb
