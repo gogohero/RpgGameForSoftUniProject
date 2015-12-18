@@ -14,7 +14,7 @@ namespace Hero3TrialMono.Castle.Structures
         private FootLevelSoldier footLevelSoldier;
 
 
-        public FootLevelStructure(Position position, string name, FootLevelSoldier footLevelSoldier) 
+        public FootLevelStructure(Position position, string name, FootLevelSoldier footLevelSoldier)
             : base(position, name)
         {
             this.Position = position;
@@ -25,4 +25,5 @@ namespace Hero3TrialMono.Castle.Structures
         public FootLevelSoldier FootLevelSoldier { get; set; }
         public string Name { get; set; }
     }
+}
 }

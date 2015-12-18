@@ -43,11 +43,11 @@
     <Compile Include="Castle\Army\CaptainLevelSoldier.cs" />
     <Compile Include="Castle\Army\FootLevelSoldier.cs" />
     <Compile Include="Castle\Army\GeneralLevelSoldier.cs" />
-    <Compile Include="Castle\DemonCastle.cs" />
-    <Compile Include="Castle\EarthCastle.cs" />
-    <Compile Include="Castle\OrcCastle.cs" />
+    <Compile Include="CharacterMenuState.cs" />
     <Compile Include="ContentLoader.cs" />
-    <Compile Include="Interfaces\IContent.cs" />
+    <Compile Include="CreditState.cs" />
+    <Compile Include="GameInfoState.cs" />
+    <Compile Include="InputHandler.cs" />
     <Compile Include="Interfaces\IItem.cs" />
     <Compile Include="Interfaces\ISoldier.cs" />
     <Compile Include="Castle\Army\LegendaryLevelSoldier.cs" />
@@ -111,7 +111,7 @@
     <Content Include="Icon.ico" />
     <Content Include="Images\archer.png" />
     <Content Include="Images\background.png" />
-    <Content Include="Images\cooltext154680561497265.png" />
+    <Content Include="Images\warrior.png" />
     <Content Include="Images\credit.png" />
     <Content Include="Images\gameinfo.png" />
     <Content Include="Images\healer.png" />

@@ -10,19 +10,23 @@ namespace Hero3TrialMono
     using Microsoft.Xna.Framework.Content;
     using Microsoft.Xna.Framework.Graphics;
 
-    public abstract class State : IContent
+    public abstract class State 
     {
-        private readonly ContentManager content;
+        private ContentManager content;
 
         protected State()
         {
-            this.content = Engine.ContentLoader.Content;
+
         }
 
-        public ContentManager Content => this.content;
+        public ContentManager Content
+        {
+            protected get { return this.content; }
+            set { this.content = value; }
+        }
 
         public abstract void Draw(SpriteBatch spriteBatch);
-        public abstract void Update(GameTime gameTime);
+        public abstract void Update(GameTime gameTime, InputHandler inputHandler);
     }
 }
 

@@ -15,7 +15,7 @@ namespace Hero3TrialMono.Castle.Structures
             this.Name = name;
         }
 
-        public string Name { get; set; }
+        public string Name { get; }
 
         public void Buy()
        {

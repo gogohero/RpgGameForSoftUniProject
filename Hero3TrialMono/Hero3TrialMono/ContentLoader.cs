@@ -10,7 +10,7 @@ namespace Hero3TrialMono
     using Microsoft.Xna.Framework.Content;
 
 
-    public class ContentLoader : IContent
+    public class ContentLoader 
     {
         private ContentManager content;
 

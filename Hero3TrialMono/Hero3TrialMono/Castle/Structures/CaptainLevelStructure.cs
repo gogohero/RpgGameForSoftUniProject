@@ -2,16 +2,17 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Hero3TrialMono.Castle.Army;
 
 namespace Hero3TrialMono.Castle.Structures
 {
+    using Army;
+
     public class CaptainLevelStructure : Structure
     {
         private string name;
         private CaptainLevelSoldier captainLevelSoldier;
-        
-        public CaptainLevelStructure(Position position, string name) 
+
+        public CaptainLevelStructure(Position position, string name)
             : base(position, name)
         {
             this.Position = position;

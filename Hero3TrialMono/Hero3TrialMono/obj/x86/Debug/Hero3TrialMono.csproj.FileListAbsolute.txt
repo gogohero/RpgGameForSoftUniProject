@@ -23,35 +23,10 @@ C:\Users\Miroslav\documents\visual studio 2015\Projects\Hero3TrialMono\Hero3Tria
 C:\Users\Miroslav\documents\visual studio 2015\Projects\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\SharpDX.Direct3D9.xml
 C:\Users\Miroslav\documents\visual studio 2015\Projects\Hero3TrialMono\Hero3TrialMono\obj\x86\Debug\Hero3TrialMono.exe
 C:\Users\Miroslav\documents\visual studio 2015\Projects\Hero3TrialMono\Hero3TrialMono\obj\x86\Debug\Hero3TrialMono.pdb
-C:\Users\Miroslav\documents\visual studio 2015\Projects\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\Content\Images\background.xnb
 C:\Users\Miroslav\documents\visual studio 2015\Projects\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\Content\Images\archer.xnb
-C:\Users\Miroslav\documents\visual studio 2015\Projects\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\Content\Images\cooltext154680561497265.xnb
+C:\Users\Miroslav\documents\visual studio 2015\Projects\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\Content\Images\background.xnb
 C:\Users\Miroslav\documents\visual studio 2015\Projects\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\Content\Images\credit.xnb
 C:\Users\Miroslav\documents\visual studio 2015\Projects\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\Content\Images\gameinfo.xnb
 C:\Users\Miroslav\documents\visual studio 2015\Projects\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\Content\Images\healer.xnb
 C:\Users\Miroslav\documents\visual studio 2015\Projects\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\Content\Images\play.xnb
-E:\Projects\ProjectOOPRpgGame\RpgGameForSoftUniProject\Hero3TrialMono\Hero3TrialMono\obj\x86\Debug\Hero3TrialMono.exe
-E:\Projects\ProjectOOPRpgGame\RpgGameForSoftUniProject\Hero3TrialMono\Hero3TrialMono\obj\x86\Debug\Hero3TrialMono.pdb
-E:\Projects\ProjectOOPRpgGame\RpgGameForSoftUniProject\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\Hero3TrialMono.exe
-E:\Projects\ProjectOOPRpgGame\RpgGameForSoftUniProject\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\Hero3TrialMono.pdb
-E:\Projects\ProjectOOPRpgGame\RpgGameForSoftUniProject\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\MonoGame.Framework.dll
-E:\Projects\ProjectOOPRpgGame\RpgGameForSoftUniProject\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\SharpDX.MediaFoundation.dll
-E:\Projects\ProjectOOPRpgGame\RpgGameForSoftUniProject\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\SharpDX.dll
-E:\Projects\ProjectOOPRpgGame\RpgGameForSoftUniProject\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\SharpDX.XAudio2.dll
-E:\Projects\ProjectOOPRpgGame\RpgGameForSoftUniProject\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\SharpDX.Direct3D11.dll
-E:\Projects\ProjectOOPRpgGame\RpgGameForSoftUniProject\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\SharpDX.DXGI.dll
-E:\Projects\ProjectOOPRpgGame\RpgGameForSoftUniProject\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\SharpDX.Direct2D1.dll
-E:\Projects\ProjectOOPRpgGame\RpgGameForSoftUniProject\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\SharpDX.XInput.dll
-E:\Projects\ProjectOOPRpgGame\RpgGameForSoftUniProject\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\SharpDX.RawInput.dll
-E:\Projects\ProjectOOPRpgGame\RpgGameForSoftUniProject\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\SharpDX.Direct3D9.dll
-E:\Projects\ProjectOOPRpgGame\RpgGameForSoftUniProject\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\MonoGame.Framework.xml
-E:\Projects\ProjectOOPRpgGame\RpgGameForSoftUniProject\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\SharpDX.MediaFoundation.xml
-E:\Projects\ProjectOOPRpgGame\RpgGameForSoftUniProject\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\SharpDX.xml
-E:\Projects\ProjectOOPRpgGame\RpgGameForSoftUniProject\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\SharpDX.XAudio2.xml
-E:\Projects\ProjectOOPRpgGame\RpgGameForSoftUniProject\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\SharpDX.Direct3D11.xml
-E:\Projects\ProjectOOPRpgGame\RpgGameForSoftUniProject\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\SharpDX.DXGI.xml
-E:\Projects\ProjectOOPRpgGame\RpgGameForSoftUniProject\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\SharpDX.Direct2D1.xml
-E:\Projects\ProjectOOPRpgGame\RpgGameForSoftUniProject\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\SharpDX.XInput.xml
-E:\Projects\ProjectOOPRpgGame\RpgGameForSoftUniProject\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\SharpDX.RawInput.xml
-E:\Projects\ProjectOOPRpgGame\RpgGameForSoftUniProject\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\SharpDX.Direct3D9.xml
-E:\Projects\ProjectOOPRpgGame\RpgGameForSoftUniProject\Hero3TrialMono\Hero3TrialMono\obj\x86\Debug\Hero3TrialMono.csprojResolveAssemblyReference.cache
+C:\Users\Miroslav\documents\visual studio 2015\Projects\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\Content\Images\warrior.xnb

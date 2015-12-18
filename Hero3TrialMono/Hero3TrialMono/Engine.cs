@@ -16,17 +16,18 @@ namespace Hero3TrialMono
         SpriteBatch spriteBatch;
         
         private StateManager stateManager;
-
+        private InputHandler input;
         public static ContentLoader ContentLoader;
 
         public Engine()
         {
             this.graphics = new GraphicsDeviceManager(this);
             this.Content.RootDirectory = "Content";
-
+            input = new InputHandler(graphics);
             this.graphics.PreferredBackBufferWidth = 800;
             this.graphics.PreferredBackBufferHeight = 600;
             this.graphics.ApplyChanges();
+          
 
             this.IsMouseVisible = true;
 
@@ -42,7 +43,8 @@ namespace Hero3TrialMono
         {
             ContentLoader = new ContentLoader(this.Content);
 
-            this.stateManager = new StateManager();
+            this.stateManager = new StateManager(this.Content);
+            this.input = new InputHandler(this.graphics);
 
            
 
@@ -77,13 +79,16 @@ namespace Hero3TrialMono
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
+            input.MouseMovement();
             if (Keyboard.GetState().IsKeyDown(Keys.Escape))
             {
                 Exit();
             }
                 this.IsMouseVisible = true;
+          
               
-            this.stateManager.CurrentState.Update(gameTime);
+            this.stateManager.CurrentState.Update(gameTime, this.input);
+           this.input.CheckForKeyboardInput(this.stateManager);
             base.Update(gameTime);
         }
 
@@ -94,8 +99,8 @@ namespace Hero3TrialMono
         protected override void Draw(GameTime gameTime)
         {
             this.GraphicsDevice.Clear(Color.CornflowerBlue);
+            this.spriteBatch.Begin();
 
-            this.spriteBatch.Begin();         
             this.stateManager.CurrentState.Draw(this.spriteBatch);
 
             this.spriteBatch.End();

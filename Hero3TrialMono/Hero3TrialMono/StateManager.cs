@@ -8,18 +8,20 @@ namespace Hero3TrialMono
     using Interfaces;
     using Microsoft.Xna.Framework.Content;
 
-    public  class StateManager : IContent
+    public  class StateManager 
     {
         private State currentState;
         private ContentManager content;
 
-        public StateManager()
+        public StateManager(ContentManager content)
         {
-            this.content = Engine.ContentLoader.Content;
-            this.currentState = new MenuState();
+            this.Content = content;
+            this.currentState = new MenuState(this.Content);
+            //this.currentState = new CharacterMenuState();
+            
         }
 
-        public ContentManager Content => this.content;
+        public ContentManager Content { get; set; }
 
         public State CurrentState
         {

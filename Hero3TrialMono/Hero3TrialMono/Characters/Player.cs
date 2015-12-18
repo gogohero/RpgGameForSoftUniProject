@@ -44,15 +44,17 @@ namespace Hero3TrialMono.Characters
 
         public string Name { get; }
 
+
+
         public void Attack(Player enemy)
         {
-            throw new NotImplementedException();
+            
         }
 
 
         public void Move()
         {
-            throw new NotImplementedException();
+            
         }
 
 
@@ -60,13 +62,13 @@ namespace Hero3TrialMono.Characters
 
         public void addToSuplies(Item suply, int count)
         {
-            throw new NotImplementedException();
+           
         }
 
       
         public void LevelUp()
         {
-            throw new NotImplementedException();
+            
         }
     }
 }

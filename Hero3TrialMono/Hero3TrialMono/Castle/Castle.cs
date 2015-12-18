@@ -22,13 +22,13 @@ namespace Hero3TrialMono.Castle
         private MasterLevelStructure masterLevelStructure;
         private LegendaryLevelStructure legendaryLevelStructure;
 
-      //  private BunnyLevelSoldier bunnyLevelSoldier;
-       // private FootLevelSoldier footLevelSoldier;
-        //private LegionLevelSoldier legionLevelSoldier;
-        //private CaptainLevelSoldier captainLevelSoldier;
-        //private GeneralLevelSoldier generalLevelSoldier;
-        //private MasterLevelSoldier masterLevelSoldier;
-        //private LegendaryLevelSoldier legendaryLevelSoldier;
+        private BunnyLevelSoldier bunnyLevelSoldier;
+        private FootLevelSoldier footLevelSoldier;
+        private LegionLevelSoldier legionLevelSoldier;
+        private CaptainLevelSoldier captainLevelSoldier;
+        private GeneralLevelSoldier generalLevelSoldier;
+        private MasterLevelSoldier masterLevelSoldier;
+        private LegendaryLevelSoldier legendaryLevelSoldier;
 
         public Castle(Position position, 
             string name, 
@@ -38,21 +38,19 @@ namespace Hero3TrialMono.Castle
             CaptainLevelStructure captainLevelStructure,
             GeneralLevelStructure generalLevelStructure,
             MasterLevelStructure masterLevelStructure,
-            LegendaryLevelStructure legendaryLevelStructure
-          //  BunnyLevelSoldier bunnyLevelSoldier,
-           // FootLevelSoldier footLevelSoldier,
-           // LegionLevelSoldier legionLevelSoldier,
-           // CaptainLevelSoldier captainLevelSoldier,
-           // GeneralLevelSoldier generalLevelSoldier,
-           // MasterLevelSoldier masterLevelSoldier,
-           // LegendaryLevelSoldier legendaryLevelSoldier
+            LegendaryLevelStructure legendaryLevelStructure,
+            BunnyLevelSoldier bunnyLevelSoldier,
+            FootLevelSoldier footLevelSoldier,
+            LegionLevelSoldier legionLevelSoldier,
+            CaptainLevelSoldier captainLevelSoldier,
+            GeneralLevelSoldier generalLevelSoldier,
+            MasterLevelSoldier masterLevelSoldier,
+            LegendaryLevelSoldier legendaryLevelSoldier
             ) 
             : base(position)
         {
             
         }
-
-       
 
 
         public string Name { get; set; }
