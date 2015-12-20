@@ -13,5 +13,7 @@ namespace Hero3TrialMono.Characters
         {
             Image = "warrior";
         }
+
+        
     }
 }

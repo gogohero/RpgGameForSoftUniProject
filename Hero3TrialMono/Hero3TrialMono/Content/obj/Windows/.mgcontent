@@ -5,5 +5,6 @@
   <Config />
   <SourceFiles>
     <File>D:/C#/OOPC#/TeamWorkGame/Hero3TrialMono/Hero3TrialMono/Content/warrior.png</File>
+    <File>D:/C#/OOPC#/TeamWorkGame/Hero3TrialMono/Hero3TrialMono/Content/mapOne.png</File>
   </SourceFiles>
 </SourceFileCollection>

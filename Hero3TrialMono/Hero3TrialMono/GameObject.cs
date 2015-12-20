@@ -14,7 +14,7 @@ namespace Hero3TrialMono
       private static string image; 
       private Rectangle rectangle;
         private Vector2 position; 
-
+        
       protected GameObject(Vector2 position)
       {
           this.Position = position;

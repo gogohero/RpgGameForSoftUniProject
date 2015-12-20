@@ -22,11 +22,12 @@ namespace Hero3TrialMono
         private List<ICharacter> characters;
         private List<Item> items;
         private bool isRuning;
-        
+        private int a = 1;
         private Rectangle rect;
         private Texture2D image;
-        private Warrior go6oWarrior = new Warrior(new Vector2(2,2),0,"go6o");
-
+        private Texture2D backgroundImage;
+        private Warrior go6oWarrior = new Warrior(new Vector2(350,150),0,"go6o");
+        private Rectangle WorriorSpriteRectangle;
         protected override void LoadContent()
         {
             // Create a new SpriteBatch, which can be used to draw textures.
@@ -34,7 +35,10 @@ namespace Hero3TrialMono
             base.LoadContent();
 
             image = Content.Load<Texture2D>(go6oWarrior.Image);
-            rect = new Rectangle(0, 0, 100, 100);
+            backgroundImage = Content.Load<Texture2D>("mapOne");
+            rect = new Rectangle(0, 0, 800, 800);
+
+            WorriorSpriteRectangle =  new Rectangle(1,1,60,150);
 
         }
 
@@ -63,6 +67,7 @@ namespace Hero3TrialMono
 
         protected override void Update(GameTime gameTime)
         {
+            go6oWarrior.Elapsed += (float) gameTime.ElapsedGameTime.TotalMilliseconds;
             base.Update(gameTime);
         }
 
@@ -72,36 +77,55 @@ namespace Hero3TrialMono
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             spriteBatch.Begin();
-            spriteBatch.Draw(image, go6oWarrior.Position, new Rectangle(0, 0, 400, 40),Color.White,0,new Vector2(10,10), new Vector2(1,1),SpriteEffects.None, 0);
-              
+            spriteBatch.Draw(backgroundImage,Vector2.Zero,rect,Color.White,0,Vector2.One,Vector2.One,SpriteEffects.None,1);
+            spriteBatch.Draw(image, go6oWarrior.Position,WorriorSpriteRectangle,Color.White, 0 ,new Vector2(1,1), new Vector2(1,1),SpriteEffects.None, 0);
+           
             spriteBatch.End();
-            KeyboardState KBS = Keyboard.GetState();
+           KeyboardState KBS = Keyboard.GetState();       
             //Moving
             Move(KBS);
+
         }
 
         public void Move(KeyboardState KBS)
         {
 
-            int speed = 10;
+            int speed = 4;
+             
             if (KBS.IsKeyDown(Keys.Right))
             {
+                if (go6oWarrior.Elapsed > go6oWarrior.Delay)
+                {
+                }
                 rect.X += speed;
-            }
-            else if (KBS.IsKeyDown((Keys.Left)))
-            {
-                rect.X -= speed;
-            }
+               {
+                    if (a > 600)
+                    {
 
-            else if (KBS.IsKeyDown(Keys.Down))
-            {
-                rect.Y += speed;
-            }
-            else if (KBS.IsKeyDown(Keys.Up))
-            {
-                rect.Y -= speed;
-            }
-            if (KBS.IsKeyDown(Keys.Right) && KBS.IsKeyDown(Keys.Down))
+                        a = 1;
+                    }
+
+                  
+
+                       WorriorSpriteRectangle.X = a;
+                       a += 200;
+                   }
+               
+                }
+                else if (KBS.IsKeyDown((Keys.Left)))
+                {
+                    rect.X -= speed;
+                }
+
+                else if (KBS.IsKeyDown(Keys.Down))
+                {
+                    rect.Y += speed;
+                }
+                else if (KBS.IsKeyDown(Keys.Up))
+                {
+                    rect.Y -= speed;
+                }
+                if (KBS.IsKeyDown(Keys.Right) && KBS.IsKeyDown(Keys.Down))
             {
                 rect.Y += speed / 2;
                 rect.X += 0;
