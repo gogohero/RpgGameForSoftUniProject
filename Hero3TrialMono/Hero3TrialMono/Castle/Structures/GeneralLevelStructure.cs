@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Microsoft.Xna.Framework;
 
 namespace Hero3TrialMono.Castle.Structures
 {
@@ -12,7 +13,7 @@ namespace Hero3TrialMono.Castle.Structures
         private string name;
         private GeneralLevelSoldier generalLevelSoldier;
 
-        public GeneralLevelStructure(Position position, string name)
+        public GeneralLevelStructure(Vector2 position, string name)
             : base(position, name)
         {
             this.Position = position;
@@ -24,4 +25,4 @@ namespace Hero3TrialMono.Castle.Structures
         public string Name { get; set; }
     }
 }
-}
+

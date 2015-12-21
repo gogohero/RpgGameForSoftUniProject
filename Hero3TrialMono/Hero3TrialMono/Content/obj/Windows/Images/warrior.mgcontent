@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>D:/New folder (2)/RpgGameForSoftUniProject/Hero3TrialMono/Hero3TrialMono/Content/Images/warrior.png</SourceFile>
-  <SourceTime>2015-12-18T18:31:58.9201613+02:00</SourceTime>
-  <DestFile>D:/New folder (2)/RpgGameForSoftUniProject/Hero3TrialMono/Hero3TrialMono/Content/bin/Windows/Images/warrior.xnb</DestFile>
-  <DestTime>2015-12-18T18:55:00.4041776+02:00</DestTime>
+  <SourceFile>D:/C#/OOPC#/MirosShit/Hero3TrialMono/Hero3TrialMono/Content/Images/warrior.png</SourceFile>
+  <SourceTime>2015-12-21T15:54:45.0597255+02:00</SourceTime>
+  <DestFile>D:/C#/OOPC#/MirosShit/Hero3TrialMono/Hero3TrialMono/Content/bin/Windows/Images/warrior.xnb</DestFile>
+  <DestTime>2015-12-21T15:55:26.7231085+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2015-04-29T20:14:44+03:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

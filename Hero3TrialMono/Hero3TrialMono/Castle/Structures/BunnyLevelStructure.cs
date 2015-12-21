@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Microsoft.Xna.Framework;
 
 namespace Hero3TrialMono.Castle.Structures
 {
@@ -12,7 +13,7 @@ namespace Hero3TrialMono.Castle.Structures
         private string name;
         private BunnyLevelSoldier bunnyLevelSoldier;
 
-        public BunnyLevelStructure(Position position, string name, BunnyLevelSoldier bunnyLevelSoldier)
+        public BunnyLevelStructure(Vector2 position, string name, BunnyLevelSoldier bunnyLevelSoldier)
             : base(position, name)
         {
             this.Position = position;

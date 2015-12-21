@@ -19,7 +19,7 @@ namespace Hero3TrialMono
         private State currentState;
         private Engine engine;
         private ContentManager content;
-
+        
 
         public InputHandler(GraphicsDeviceManager graphics)
         {
@@ -48,7 +48,11 @@ namespace Hero3TrialMono
             else if (Keyboard.GetState().IsKeyDown(Keys.W) &&
                stateManager.CurrentState is CharacterMenuState)
             {
-
+                stateManager.CurrentState = new Map();
+                this.graphics.PreferredBackBufferWidth = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width;
+                this.graphics.PreferredBackBufferHeight = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height;
+                this.graphics.IsFullScreen = true;
+                graphics.ApplyChanges();
             }
             else if (Keyboard.GetState().IsKeyDown(Keys.A) &&
               stateManager.CurrentState is CharacterMenuState)

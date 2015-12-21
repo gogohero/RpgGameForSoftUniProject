@@ -9,7 +9,7 @@ namespace Hero3TrialMono.Interfaces
 
     interface IItem
     {
-        Position Position { get; }
+       
 
         int ItemCount { get; }
 

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Hero3TrialMono.Interfaces;
+using Microsoft.Xna.Framework;
 
 namespace Hero3TrialMono.Characters
 {
@@ -17,58 +18,48 @@ namespace Hero3TrialMono.Characters
         private int wood;
         private int rock;
         private int jems;
-        
 
-        public Player(Position position, 
-            int damage, 
-            string name,
-            int gold,
-            int crystals,
-            int mercury,
-            int sulfur,
-            int wood,
-            int rock,
-            int jems) 
+
+        public Player(Vector2 position, int damage, string name)
             : base(position)
         {
             this.Damage = damage;
             this.Name = name;
-        
+            this.Delay = 1000f;
         }
 
-        public int Expirience { get; }
+        public float Elapsed { get; set; }
+        public string Name { get; set; }
 
-        public int Damage { get; }
+        public int Expirience { get; set; }
 
-        public Position Position { get; }
+        public int Damage { get; set; }
+        public float Delay { get; set; }
 
-        public string Name { get; }
 
-
+        public IEnumerable<Item> suplys { get; set; }
 
         public void Attack(Player enemy)
         {
-            
+            throw new NotImplementedException();
         }
 
 
         public void Move()
         {
-            
+            throw new NotImplementedException();
         }
 
-
-        public IEnumerable<Item> suplys { get; }
 
         public void addToSuplies(Item suply, int count)
         {
-           
+            throw new NotImplementedException();
         }
 
-      
+
         public void LevelUp()
         {
-            
+            throw new NotImplementedException();
         }
     }
 }

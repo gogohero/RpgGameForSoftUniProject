@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Microsoft.Xna.Framework;
 
 namespace Hero3TrialMono.Castle
 {
@@ -30,7 +31,7 @@ namespace Hero3TrialMono.Castle
         private MasterLevelSoldier masterLevelSoldier;
         private LegendaryLevelSoldier legendaryLevelSoldier;
 
-        public Castle(Position position, 
+        public Castle(Vector2 position, 
             string name, 
             BunnyLevelStructure bunnyLevelStructure, 
             FootLevelStructure footLevelStructure,

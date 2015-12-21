@@ -36,11 +36,11 @@ namespace Hero3TrialMono
 
         public override void Draw(SpriteBatch spriteBatch)
         {
-            
+            spriteBatch.Begin();
             spriteBatch.Draw(this.play, new Vector2(270 ,140 ),Color.White);
             spriteBatch.Draw(this.gameinfo, new Vector2(270,250),Color.White);
             spriteBatch.Draw(this.credit, new Vector2(270 ,370),Color.White);
-          
+          spriteBatch.End();
         }
 
         public override void Update(GameTime gameTime, InputHandler inputHandler)

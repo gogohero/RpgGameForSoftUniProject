@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Microsoft.Xna.Framework;
 
 namespace Hero3TrialMono.Castle
 {
@@ -10,7 +11,7 @@ namespace Hero3TrialMono.Castle
 
    public class AngelCastle : Castle
     {
-        public AngelCastle(Position position, 
+        public AngelCastle(Vector2 position, 
             string name,
             BunnyLevelStructure bunnyLevelStructure, 
             FootLevelStructure footLevelStructure, 
@@ -43,15 +44,15 @@ namespace Hero3TrialMono.Castle
                   masterLevelSoldier, 
                   legendaryLevelSoldier)
         {
-            this.Name = "Valhala";
-            this.BunnyLevelStructure = new BunnyLevelStructure(new Position(50,200), "Miro");
-            this.FootLevelStructure = new FootLevelStructure(new Position(90, 80), "E");
-            this.LegionLevelStructure = new LegionLevelStructure(new Position(100, 200), "Mnou");
-            this.CaptainLevelStructure = new CaptainLevelStructure(new Position(500,100), "Typ");
-            this.GeneralLevelStructure = new GeneralLevelStructure(new Position(600,500), "Nimoa");
-            this.MasterLevelStructure = new MasterLevelStructure(new Position(700,50), "go");
-            this.LegendaryLevelStructure = new LegendaryLevelStructure(new Position(300 ,700), "turpa.");
-            //this.BunnyLevelSoldier = new BunnyLevelSoldier(new Po);
+//            this.Name = "Valhala";
+//            this.BunnyLevelStructure = new BunnyLevelStructure(new Vector2(50,200), "Miro",new BunnyLevelSoldier());
+//            this.FootLevelStructure = new FootLevelStructure(new Position(90, 80), "E");
+//            this.LegionLevelStructure = new LegionLevelStructure(new Position(100, 200), "Mnou");
+//            this.CaptainLevelStructure = new CaptainLevelStructure(new Position(500,100), "Typ");
+//            this.GeneralLevelStructure = new GeneralLevelStructure(new Position(600,500), "Nimoa");
+//            this.MasterLevelStructure = new MasterLevelStructure(new Position(700,50), "go");
+//            this.LegendaryLevelStructure = new LegendaryLevelStructure(new Position(300 ,700), "turpa.");
+//            //this.BunnyLevelSoldier = new BunnyLevelSoldier(new Po);
             
         }
     }

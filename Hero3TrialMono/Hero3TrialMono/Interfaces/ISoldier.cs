@@ -12,9 +12,9 @@ namespace Hero3TrialMono.Castle.Army.Intefaces
 
          string Name { get;  }
 
-         int Damage { get; }
+         int Damage { get; set; }
 
-         SoldierState SoldierState { get;  }
+        SoldierState SoldierState { get;  }
 
          int Speed { get; }
     }

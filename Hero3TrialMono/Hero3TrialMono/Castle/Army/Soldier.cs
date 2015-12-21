@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Microsoft.Xna.Framework;
 
 namespace Hero3TrialMono.Castle.Army
 {
@@ -16,7 +17,7 @@ namespace Hero3TrialMono.Castle.Army
         private int defence;
         private int speed;
 
-        public Soldier(Position position, string name, int soldierCount, int damage, int health, int defence, int speed)
+        public Soldier(Vector2 position, string name, int soldierCount, int damage, int health, int defence, int speed)
             : base(position)
         {
             this.Name = name;
@@ -31,11 +32,11 @@ namespace Hero3TrialMono.Castle.Army
         }
 
 
-        public int SoldierCount { get; }
-        public string Name { get; }
-        int ISoldier.Damage { get; }
-        public SoldierState SoldierState { get; }
-        public int Speed { get; }
+        public int SoldierCount { get; set; }
+        public string Name { get; set; }
+        int ISoldier.Damage { get; set; }
+        public SoldierState SoldierState { get; set; }
+        public int Speed { get; set; }
         
         public int Damage { get; private set; }
 

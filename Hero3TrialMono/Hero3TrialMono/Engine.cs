@@ -99,11 +99,8 @@ namespace Hero3TrialMono
         protected override void Draw(GameTime gameTime)
         {
             this.GraphicsDevice.Clear(Color.CornflowerBlue);
-            this.spriteBatch.Begin();
-
+           
             this.stateManager.CurrentState.Draw(this.spriteBatch);
-
-            this.spriteBatch.End();
 
             base.Draw(gameTime);
         }

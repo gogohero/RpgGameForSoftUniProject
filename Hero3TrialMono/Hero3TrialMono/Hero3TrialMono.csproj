@@ -93,6 +93,7 @@
     <Compile Include="Items\Rock.cs" />
     <Compile Include="Items\Sulfer.cs" />
     <Compile Include="Items\Wood.cs" />
+    <Compile Include="Map.cs" />
     <Compile Include="MenuState.cs" />
     <Compile Include="Position.cs" />
     <Compile Include="Program.cs" />

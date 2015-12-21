@@ -2,19 +2,19 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Microsoft.Xna.Framework;
 
 namespace Hero3TrialMono
 {
     public struct Position
     {
-        public Position(int x , int y)
+        public Position(Vector2 pos) : this()
         {
-            this.X = x;
-            this.Y = y;
+
+            this.Pos = pos;
         }
 
-        public int X { get; set; }
-
-        public int Y { get; set; }
+      public  Vector2 Pos { get; set; } 
+        
     }
 }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Microsoft.Xna.Framework;
 
 namespace Hero3TrialMono
 {
@@ -9,23 +10,28 @@ namespace Hero3TrialMono
 
     public abstract class GameObject
   {
-      Position position;
 
-      protected GameObject(Position position)
+      private static string image;
+      private Rectangle rectangle;
+      private Vector2 position;
+
+      protected GameObject(Vector2 position)
       {
           this.Position = position;
       }
 
-      public Position Position {
-          get { return this.position; }
-          set
-          {
-              if (value.X < 0 || value.Y < 0)
-              {
-                  throw  new ObjectOutOfBounds("The specified object is out of the map");
-              }
-              this.position = value;
-          }
-        }
+
+      public Vector2 Position { get; set; }
+      public string Image
+      {
+          get { return image; }
+          set { image = value; }
+      }
+
+      public Rectangle Rectangle
+      {
+          get { return rectangle; }
+          set { rectangle = value; }
+      }
   }
 }
