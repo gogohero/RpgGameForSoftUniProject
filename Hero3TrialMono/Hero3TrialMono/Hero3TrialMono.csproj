@@ -111,6 +111,7 @@
     <Content Include="Icon.ico" />
     <Content Include="Images\archer.png" />
     <Content Include="Images\background.png" />
+    <Content Include="Images\mapOne.png" />
     <Content Include="Images\warrior.png" />
     <Content Include="Images\credit.png" />
     <Content Include="Images\gameinfo.png" />

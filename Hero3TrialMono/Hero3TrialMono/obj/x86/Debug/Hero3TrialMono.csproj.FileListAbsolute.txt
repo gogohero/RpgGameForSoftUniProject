@@ -63,3 +63,5 @@ D:\New folder (2)\RpgGameForSoftUniProject\Hero3TrialMono\Hero3TrialMono\bin\Win
 D:\New folder (2)\RpgGameForSoftUniProject\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\SharpDX.RawInput.xml
 D:\New folder (2)\RpgGameForSoftUniProject\Hero3TrialMono\Hero3TrialMono\bin\Windows\Debug\SharpDX.Direct3D9.xml
 D:\New folder (2)\RpgGameForSoftUniProject\Hero3TrialMono\Hero3TrialMono\obj\x86\Debug\Hero3TrialMono.csprojResolveAssemblyReference.cache
+C:\Users\Miroslav\Desktop\OOPheroes3\RpgGameForSoftUniProject\Hero3TrialMono\Hero3TrialMono\obj\x86\Debug\Hero3TrialMono.exe
+C:\Users\Miroslav\Desktop\OOPheroes3\RpgGameForSoftUniProject\Hero3TrialMono\Hero3TrialMono\obj\x86\Debug\Hero3TrialMono.pdb
