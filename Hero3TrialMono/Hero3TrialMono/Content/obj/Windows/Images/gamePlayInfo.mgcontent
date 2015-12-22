@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Miroslav/Desktop/JavaGmeTake2/RpgGameForSoftUniProject/Hero3TrialMono/Hero3TrialMono/Content/Images/archer.png</SourceFile>
-  <SourceTime>2015-12-22T01:54:05.2493481+02:00</SourceTime>
-  <DestFile>C:/Users/Miroslav/Desktop/JavaGmeTake2/RpgGameForSoftUniProject/Hero3TrialMono/Hero3TrialMono/Content/bin/Windows/Images/archer.xnb</DestFile>
-  <DestTime>2015-12-22T02:03:17.6484129+02:00</DestTime>
+  <SourceFile>C:/Users/Miroslav/Desktop/JavaGmeTake2/RpgGameForSoftUniProject/Hero3TrialMono/Hero3TrialMono/Content/Images/gamePlayInfo.png</SourceFile>
+  <SourceTime>2015-12-21T23:18:57.4288706+02:00</SourceTime>
+  <DestFile>C:/Users/Miroslav/Desktop/JavaGmeTake2/RpgGameForSoftUniProject/Hero3TrialMono/Hero3TrialMono/Content/bin/Windows/Images/gamePlayInfo.xnb</DestFile>
+  <DestTime>2015-12-22T02:03:18.5211444+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2015-04-29T20:14:44+03:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

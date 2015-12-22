@@ -29,21 +29,36 @@ namespace Hero3TrialMono
 
         public void CheckForKeyboardInput(StateManager stateManager)
         {
-
             if (Keyboard.GetState().IsKeyDown(Keys.P))
             {
                 stateManager.CurrentState = new CharacterMenuState();
                 this.graphics.ApplyChanges();
             }
-            else if (Keyboard.GetState().IsKeyDown(Keys.G) &&
+            else if (Keyboard.GetState().IsKeyDown(Keys.C) &&
                 stateManager.CurrentState is MenuState)
             {
-                
+                stateManager.CurrentState = new CreditState();
+                this.graphics.PreferredBackBufferWidth = 660;
+                this.graphics.PreferredBackBufferHeight = 451;
+                graphics.ApplyChanges();
             }
-            else if (Keyboard.GetState().IsKeyDown(Keys.C) &&
-               stateManager.CurrentState is MenuState)
+            else if (Keyboard.GetState().IsKeyDown(Keys.E) &&
+                stateManager.CurrentState is Map)
             {
 
+                stateManager.CurrentState = new CastleState();
+                this.graphics.PreferredBackBufferWidth = 1024;
+                this.graphics.PreferredBackBufferHeight = 477;
+
+                graphics.ApplyChanges();
+            }
+            else if (Keyboard.GetState().IsKeyDown(Keys.G) &&
+               stateManager.CurrentState is MenuState)
+            {
+                stateManager.CurrentState = new GameInfoState();
+                this.graphics.PreferredBackBufferWidth = 781;
+                this.graphics.PreferredBackBufferHeight = 451;
+                this.graphics.ApplyChanges();
             }
             else if (Keyboard.GetState().IsKeyDown(Keys.W) &&
                stateManager.CurrentState is CharacterMenuState)
@@ -58,15 +73,12 @@ namespace Hero3TrialMono
               stateManager.CurrentState is CharacterMenuState)
             {
 
-            } else if (Keyboard.GetState().IsKeyDown(Keys.H) &&
-                stateManager.CurrentState is MenuState)
-            {
-                
             }
+            else if (Keyboard.GetState().IsKeyDown(Keys.H) &&
+              stateManager.CurrentState is MenuState)
+            {
 
-
-
-
+            }
         }
 
         //public void PlayerMovement(Player player)

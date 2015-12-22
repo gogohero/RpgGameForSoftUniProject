@@ -10,9 +10,8 @@ namespace Hero3TrialMono
 
     public class GameInfoState : State
     {
+        private Texture2D gameInfo;
 
-        private Texture2D warrior;
-      
         public GameInfoState()
         {
 
@@ -22,22 +21,19 @@ namespace Hero3TrialMono
 
         private void Initialize()
         {
-
-          
-
+            this.gameInfo = Engine.ContentLoader.Content.Load<Texture2D>("Images/gamePlayInfo");
         }
 
         public override void Draw(SpriteBatch spriteBatch)
         {
-
-
-        
+            spriteBatch.Begin();
+            spriteBatch.Draw(this.gameInfo, new Vector2(0, 0), Color.White);
+            spriteBatch.End();
         }
 
         public override void Update(GameTime gameTime, InputHandler inputHandler)
         {
 
         }
-
     }
 }

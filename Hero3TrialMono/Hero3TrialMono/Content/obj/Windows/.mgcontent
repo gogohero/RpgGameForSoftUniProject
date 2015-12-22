@@ -4,14 +4,16 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>D:/C#/OOPC#/MirosShit/Hero3TrialMono/Hero3TrialMono/Content/Images/background.png</File>
-    <File>D:/C#/OOPC#/MirosShit/Hero3TrialMono/Hero3TrialMono/Content/Images/archer.png</File>
-    <File>D:/C#/OOPC#/MirosShit/Hero3TrialMono/Hero3TrialMono/Content/Images/credit.png</File>
-    <File>D:/C#/OOPC#/MirosShit/Hero3TrialMono/Hero3TrialMono/Content/Images/gameinfo.png</File>
-    <File>D:/C#/OOPC#/MirosShit/Hero3TrialMono/Hero3TrialMono/Content/Images/healer.png</File>
-    <File>D:/C#/OOPC#/MirosShit/Hero3TrialMono/Hero3TrialMono/Content/Images/play.png</File>
-    <File>D:/C#/OOPC#/MirosShit/Hero3TrialMono/Hero3TrialMono/Content/Images/warrior.png</File>
-    <File>D:/C#/OOPC#/MirosShit/Hero3TrialMono/Hero3TrialMono/Content/Images/mapOne.png</File>
-    <File>D:/C#/OOPC#/MirosShit/Hero3TrialMono/Hero3TrialMono/Content/Images/Champion.png</File>
+    <File>C:/Users/Miroslav/Desktop/JavaGmeTake2/RpgGameForSoftUniProject/Hero3TrialMono/Hero3TrialMono/Content/Images/background.png</File>
+    <File>C:/Users/Miroslav/Desktop/JavaGmeTake2/RpgGameForSoftUniProject/Hero3TrialMono/Hero3TrialMono/Content/Images/archer.png</File>
+    <File>C:/Users/Miroslav/Desktop/JavaGmeTake2/RpgGameForSoftUniProject/Hero3TrialMono/Hero3TrialMono/Content/Images/credit.png</File>
+    <File>C:/Users/Miroslav/Desktop/JavaGmeTake2/RpgGameForSoftUniProject/Hero3TrialMono/Hero3TrialMono/Content/Images/gameinfo.png</File>
+    <File>C:/Users/Miroslav/Desktop/JavaGmeTake2/RpgGameForSoftUniProject/Hero3TrialMono/Hero3TrialMono/Content/Images/healer.png</File>
+    <File>C:/Users/Miroslav/Desktop/JavaGmeTake2/RpgGameForSoftUniProject/Hero3TrialMono/Hero3TrialMono/Content/Images/play.png</File>
+    <File>C:/Users/Miroslav/Desktop/JavaGmeTake2/RpgGameForSoftUniProject/Hero3TrialMono/Hero3TrialMono/Content/Images/warrior.png</File>
+    <File>C:/Users/Miroslav/Desktop/JavaGmeTake2/RpgGameForSoftUniProject/Hero3TrialMono/Hero3TrialMono/Content/Images/Champion.png</File>
+    <File>C:/Users/Miroslav/Desktop/JavaGmeTake2/RpgGameForSoftUniProject/Hero3TrialMono/Hero3TrialMono/Content/Images/Castle.png</File>
+    <File>C:/Users/Miroslav/Desktop/JavaGmeTake2/RpgGameForSoftUniProject/Hero3TrialMono/Hero3TrialMono/Content/Images/credits.png</File>
+    <File>C:/Users/Miroslav/Desktop/JavaGmeTake2/RpgGameForSoftUniProject/Hero3TrialMono/Hero3TrialMono/Content/Images/gamePlayInfo.png</File>
   </SourceFiles>
 </SourceFileCollection>

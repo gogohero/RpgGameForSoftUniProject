@@ -6,30 +6,28 @@ using System.Text;
 namespace Hero3TrialMono
 {
     using Microsoft.Xna.Framework;
+    using Microsoft.Xna.Framework.Content;
     using Microsoft.Xna.Framework.Graphics;
 
-    public class CreditState :State
+    public class CastleState : State
     {
+        private Texture2D castle;
 
-        private Texture2D credits;
-
-
-        public CreditState()
+        public CastleState()
         {
 
             Initialize();
-
         }
 
         private void Initialize()
         {
-            this.credits = Engine.ContentLoader.Content.Load<Texture2D>("Images/credits");
+            this.castle = Engine.ContentLoader.Content.Load<Texture2D>("Images/AngelCastle");
         }
 
         public override void Draw(SpriteBatch spriteBatch)
         {
             spriteBatch.Begin();
-            spriteBatch.Draw(this.credits, new Vector2(0, 0), Color.White);
+            spriteBatch.Draw(castle, new Vector2(0, 0), Color.White);
             spriteBatch.End();
         }
 
@@ -37,6 +35,5 @@ namespace Hero3TrialMono
         {
 
         }
-
     }
 }

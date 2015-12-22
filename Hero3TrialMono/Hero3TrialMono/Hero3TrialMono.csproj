@@ -38,6 +38,7 @@
     <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="CasteState.cs" />
     <Compile Include="Castle\AngelCastle.cs" />
     <Compile Include="Castle\Army\BunnyLevelSoldier.cs" />
     <Compile Include="Castle\Army\CaptainLevelSoldier.cs" />
